@@ -1,0 +1,35 @@
+.triangle {
+  border-top: 25px solid red;
+  border-right: 25px solid rgba(10%, 10%, 10%, 0);
+  border-left: 25px solid rgba(10%, 10%, 10%, 0);
+  width: 0;
+  height: 0;
+}
+.triangle1 {
+  border-top: 25px solid rgba(10%, 10%, 10%, 0);
+  border-bottom: 25px solid green;
+  border-right: 25px solid rgba(10%, 10%, 10%, 0);
+  border-left: 25px solid rgba(10%, 10%, 10%, 0);
+  width: 0;
+  height: 0;
+}
+.triangle2 {
+  border-top: 25px solid rgba(10%, 10%, 10%, 0);
+  border-bottom: 25px solid rgba(10%, 10%, 10%, 0);
+  border-left: 25px solid blue;
+  width: 0;
+  height: 0;
+}
+.triangle3 {
+  border-top: 25px solid rgba(10%, 10%, 10%, 0);
+  border-bottom: 25px solid rgba(10%, 10%, 10%, 0);
+  border-right: 25px solid yellow;
+  width: 0;
+  height: 0;
+}
+.triangle4 {
+  border-top: 50px solid rgba(10%, 10%, 10%, 0);
+  border-right: 50px solid pink;
+  width: 0;
+  height: 0;
+}
