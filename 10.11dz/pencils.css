@@ -1,0 +1,49 @@
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: repeating-linear-gradient(to top, #15bdff 0px, #15bdff 1px, transparent 1px, transparent 50px),
+    repeating-linear-gradient(to right, #15bdff 0px, #15bdff 1px, transparent 1px, transparent 50px);
+    background-size: 15px 15px;
+    background-position: center center;
+}
+
+.pencil-one {
+    width: 40px;
+    height: calc(100% - 100px);
+    margin: 20px;
+}
+
+.stvol-one {
+    height: calc(100% - 100px);
+    background: repeating-linear-gradient(to right, #ff8720, #ffdfa7 25%);
+    border-top: 20px solid pink;
+    border-radius: 15px 15px 0 0;
+}
+
+.dubka-one {
+    border: 20px solid rgba(0%, 0%, 0%, 0);
+    border-top: 50px solid #B79891;
+}
+
+.pencil-two {
+    height: 40px;
+    width: calc(100% - 100px);
+    margin: 20px;
+}
+
+.stvol-two {
+    width: calc(100% - 100px);
+    height: 100%;
+    background: repeating-linear-gradient(to top, #ff8720, #ffdfa7, #ff8720);
+    border-left: 20px solid pink;
+    border-radius: 15px 0 0 10px;
+}
+
+.dubka-two {
+    border: 20px solid rgba(0%, 0%, 0%, 0);
+    border-left: 60px solid #B79891;
+    float: right;
+}
