@@ -1,0 +1,14 @@
+.border {
+    width: calc(100% - 100px);
+    height: calc(100% - 500px);
+    background: url("top-left.png") top left no-repeat,
+                url("top-right.png") top right no-repeat,
+                url("bot-left.png") bottom left no-repeat,
+                url("bot-right.png") bottom right no-repeat,
+                url("top.png") top repeat-x,
+                url("bot.png") bottom repeat-x,
+                url("vertical.png") left repeat-y,
+                url("vertical.png") right repeat-y;
+    background-color: white;
+    padding: 50px;
+}
