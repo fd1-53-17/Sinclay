@@ -1,0 +1,12 @@
+.arkobaleno {
+    background: #466368;
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+    border-radius: 6px;
+    height: 120px;
+}
+.arkobaleno1 {
+    background: #466368;
+    background: linear-gradient(to right, red 0%, red 14.29%, orange 0%, orange 28.58%, yellow 0%, yellow 42.87%, green 0%, green 57.16%, cyan 0%, cyan 71.45%, blue 0%, cyan 85.74%, violet 0%, violet 100%);
+    border-radius: 6px;
+    height: 120px;
+}
