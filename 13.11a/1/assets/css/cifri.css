@@ -1,0 +1,68 @@
+.row>div {
+    float: left;
+}
+
+.row {
+    clear: left;
+    width: 30px;
+}
+
+.right {
+    float: right;
+    margin-left: 8px;
+}
+
+.left {
+    float: left;
+    margin-left: -16px;
+}
+
+.left1 {
+    float: left;
+    margin-left: -16px;
+}
+
+.right1 {
+    float: right;
+    margin-left: 8px;
+}
+
+.right22 {
+    float: right;
+    margin-left: 16px;
+}
+
+.left2 {
+    float: left;
+    margin-left: -24px;
+}
+
+.left21 {
+    float: left;
+    margin-left: -16px;
+}
+
+.right33 {
+    float: right;
+    margin-left: 8px;
+}
+
+.left3 {
+    float: left;
+    margin-left: -24px;
+}
+
+.right44 {
+    float: right;
+    margin-left: 16px;
+}
+
+.left4 {
+    float: left;
+    margin-left: -16px;
+}
+
+.left41 {
+    float: left;
+    margin-left: -24px;
+}
