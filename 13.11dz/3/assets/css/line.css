@@ -1,0 +1,32 @@
+.p {
+    width: 500px;
+    height: 50px;
+    background-color: white;
+}
+
+.left {
+    float: left;
+    margin-top: 20px;
+}
+
+.right {
+    float: right;
+}
+
+.n {
+    float: left;
+    margin: 5px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid grey;
+    color: brown;
+    background-color: #F5F5F5;
+}
+
+.n1 {
+    color: white;
+    background-color: #8B4513;
+}
+
+.clear {
+    clear: both;
+}
