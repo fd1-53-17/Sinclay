@@ -1,0 +1,17 @@
+.row>div {
+    width: 10px;
+    display: inline-block;
+}
+
+.row {
+    clear: both;
+    width: 30px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
