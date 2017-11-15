@@ -1,0 +1,23 @@
+.table {
+    width: 100vmin;
+    height: 100vmin;
+}
+
+.row {
+    height: calc(100vmin / 10);
+    width: calc(100vmin / 10);
+    display: inline-block;
+    border: 1px solid black;
+    margin: -3px;
+}
+.white {
+    background-color: white;
+    text-align: center;
+}
+.black {
+    background-color: black;
+}
+.n {
+    position: absolute;
+    width: calc(100vmin / 10);
+}

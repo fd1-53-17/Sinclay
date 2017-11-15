@@ -1,0 +1,22 @@
+.table {
+    width: 100vmin;
+    height: 100vmin;
+}
+
+.colomn {
+    width: calc(100vmin / 10);
+    float: left
+}
+
+.black {
+    background-color: black;
+    height: calc(100vmin / 10);
+    border: 1px solid black;
+}
+
+.white {
+    background-color: white;
+    height: calc(100vmin / 10);
+    border: 1px solid black;
+    text-align: center;
+}
