@@ -1,0 +1,144 @@
+.wrapper {
+    width: 870px;
+    position: relative;
+}
+
+header {
+    padding: 0px;
+}
+
+.block1 {
+    height: 93px;
+    width: 105px;
+    position: absolute;
+    left: 15px;
+    background: grey;
+}
+
+.block2 {
+    height: 93px;
+    width: 239px;
+    position: absolute;
+    left: 150px;
+    background: grey;
+}
+
+.block3 {
+    height: 93px;
+    width: 438px;
+    position: relative;
+    left: 420px;
+    background: grey;
+}
+
+main {
+    height: 700px;
+    width: 870px;
+}
+
+aside {
+    height: 690px;
+    width: 190px;
+}
+
+.asideblock1 {
+    height: 287px;
+    width: 158px;
+    position: absolute;
+    top: 111px;
+    left: 15px;
+    background: grey;
+}
+
+.asideblock2 {
+    height: 114px;
+    width: 158px;
+    position: absolute;
+    left: 15px;
+    bottom: 178px;
+    background: grey;
+}
+
+article {
+    width: 646px;
+    height: 700px;
+    position: absolute;
+    top: 111px;
+    left: 212px;
+}
+
+.topcontent {
+    width: 645px;
+    height: 177px;
+    background: lightgrey;
+}
+
+ul {
+    width: 670px;
+    height: 276px;
+    margin: 25px 0 0 -45px;
+}
+
+li {
+    height: 131px;
+    width: 114px;
+    display: inline-block;
+    background: lightgrey;
+    list-style-type: none;
+    margin: 5px 10px 5px 5px;
+}
+
+.botcontent1 {
+    height: 170px;
+    width: 314px;
+    background: lightgrey;
+    position: absolute;
+    bottom: 10px;
+}
+
+.botcontent2 {
+    height: 170px;
+    width: 314px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    background: lightgrey;
+}
+
+footer {
+    height: 153px;
+    width: 870px;
+}
+
+.footer1 {
+    height: 154px;
+    width: 255px;
+    position: absolute;
+    left: 15px;
+    background: grey;
+}
+
+.footer2 {
+    height: 154px;
+    width: 255px;
+    position: absolute;
+    left: 300px;
+    background: grey;
+}
+
+.footer3 {
+    height: 67px;
+    width: 260px;
+    position: absolute;
+    left: 597px;
+    background: grey;
+}
+
+.footer4 {
+    height: 67px;
+    width: 260px;
+    background: grey;
+    position: absolute;
+    bottom: 0px;
+    left: 597px;
+}
