@@ -1,0 +1,102 @@
+body {
+    position: relative;
+}
+
+.one {
+    position: absolute;
+}
+
+.two {
+    position: absolute;
+    left: 10px;
+}
+
+.three {
+    position: absolute;
+    left: 20px;
+}
+
+.one1 {
+    position: absolute;
+    top: 20px;
+}
+
+.two1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.three1 {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.one2 {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+
+.two2 {
+    position: absolute;
+    top: 40px;
+}
+
+.three2 {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.one3 {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+.two3 {
+    position: absolute;
+    top: 60px;
+}
+
+.three3 {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+
+.one4 {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+
+.two4 {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+.three4 {
+    position: absolute;
+    top: 80px;
+}
+
+.one5 {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+.two5 {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+
+.three5 {
+    position: absolute;
+    top: 100px;
+}

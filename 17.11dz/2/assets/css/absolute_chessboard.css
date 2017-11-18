@@ -1,0 +1,66 @@
+.table {
+    position: relative;
+}
+
+.column1 {
+    width: 60px;
+    position: absolute;
+}
+.column2 {
+    width: 60px;
+    position: absolute;
+    left: 60px;
+}
+.column3 {
+    width: 60px;
+    position: absolute;
+    left: 120px;
+}
+.column4 {
+    width: 60px;
+    position: absolute;
+    left: 180px;
+}
+.column5 {
+    width: 60px;
+    position: absolute;
+    left: 240px;
+}
+.column6 {
+    width: 60px;
+    position: absolute;
+    left: 300px;
+}
+.column7 {
+    width: 60px;
+    position: absolute;
+    left: 360px;
+}
+.column8 {
+    width: 60px;
+    position: absolute;
+    left: 420px;
+}
+.column9 {
+    width: 60px;
+    position: absolute;
+    left: 480px;
+}
+.column10 {
+    width: 60px;
+    position: absolute;
+    left: 540px;
+}
+
+.black {
+    background-color: grey;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.white {
+    background-color: white;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+}
