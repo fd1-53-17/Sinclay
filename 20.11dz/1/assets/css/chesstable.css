@@ -1,0 +1,309 @@
+.chessTable {
+  width: 480px;
+  height: 480px;
+  margin: 50px;
+  counter-reset: number;
+}
+
+.chessTable>div {
+  outline: 1px solid black;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  float: left;
+}
+
+div:nth-of-type(2n):nth-of-type(-n+8),
+div:nth-of-type(2n+9):nth-of-type(-n+16),
+div:nth-of-type(2n+18):nth-of-type(-n+24),
+div:nth-of-type(2n+25):nth-of-type(-n+32),
+div:nth-of-type(2n+34):nth-of-type(-n+40),
+div:nth-of-type(2n+41):nth-of-type(-n+48),
+div:nth-of-type(2n+50):nth-of-type(-n+56),
+div:nth-of-type(2n+57):nth-of-type(-n+64) {
+  background-color: grey;
+}
+
+div:nth-of-type(n) {
+  background-color: white;
+}
+
+div:first-child:before {
+  content: "A";
+  position: absolute;
+  top: -20px;
+  left: 25px;
+}
+
+div:nth-of-type(2):before {
+  content: "B";
+  position: absolute;
+  top: -20px;
+  left: 25px;
+}
+
+div:nth-of-type(3):before {
+  content: "C";
+  position: absolute;
+  top: -20px;
+  left: 25px;
+}
+
+div:nth-of-type(4):before {
+  content: "D";
+  position: absolute;
+  top: -20px;
+  left: 25px;
+}
+
+div:nth-of-type(5):before {
+  content: "E";
+  position: absolute;
+  top: -20px;
+  left: 25px;
+}
+
+div:nth-of-type(6):before {
+  content: "F";
+  position: absolute;
+  top: -20px;
+  left: 25px;
+}
+
+div:nth-of-type(7):before {
+  content: "G";
+  position: absolute;
+  top: -20px;
+  left: 25px;
+}
+
+div:nth-of-type(8):before {
+  content: "H";
+  position: absolute;
+  top: -20px;
+  left: 25px;
+}
+
+div:nth-of-type(8n-7):after {
+  counter-increment: number;
+  content: counter(number);
+  position: absolute;
+  left: -15px;
+  top: 19px;
+}
+
+div:nth-of-type(-n+16) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -257px 9px;
+}
+
+div:nth-of-type(-n+16):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -258px -45px;
+}
+
+div:nth-of-type(1) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -98px 9px;
+}
+
+div:nth-of-type(1):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -98px -46px;
+}
+
+div:nth-of-type(2) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -205px 9px;
+}
+
+div:nth-of-type(2):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -205px -46px;
+}
+
+div:nth-of-type(3) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -151px 9px;
+}
+
+div:nth-of-type(3):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -150px -46px;
+}
+
+div:nth-of-type(4) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -44px 9px;
+}
+
+div:nth-of-type(4):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -44px -46px;
+}
+
+div:nth-of-type(5) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: 10px 9px;
+}
+
+div:nth-of-type(5):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: 9px -46px;
+}
+
+div:nth-of-type(6) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -150px 9px;
+}
+
+div:nth-of-type(6):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -150px -46px;
+}
+
+div:nth-of-type(7) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -205px 9px;
+}
+
+div:nth-of-type(7):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -205px -46px;
+}
+
+div:nth-of-type(8) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -98px 9px;
+}
+
+div:nth-of-type(8):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -98px -46px;
+}
+
+div:nth-of-type(-n+56):not(:nth-of-type(-n+48)) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -258px -45px;
+}
+
+div:nth-of-type(-n+56):not(:nth-of-type(-n+48)):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -257px 9px;
+}
+
+div:nth-of-type(57) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -98px -46px;
+}
+
+div:nth-of-type(57):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -98px 9px;
+}
+
+div:nth-of-type(58) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -205px -46px;
+}
+
+div:nth-of-type(58):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -205px 9px;
+}
+
+div:nth-of-type(59) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -150px -46px;
+}
+
+div:nth-of-type(59):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -150px 9px;
+}
+
+div:nth-of-type(60) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -44px -46px;
+}
+
+div:nth-of-type(60):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -44px 9px;
+}
+
+div:nth-of-type(61) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: 9px -46px;
+}
+
+div:nth-of-type(61):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: 10px 9px;
+}
+
+div:nth-of-type(62) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -150px -46px;
+}
+
+div:nth-of-type(62):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -150px 9px;
+}
+
+div:nth-of-type(63) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -205px -46px;
+}
+
+div:nth-of-type(63):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -205px 9px;
+}
+
+div:nth-of-type(64) {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -98px -46px;
+}
+
+div:nth-of-type(64):hover {
+  background-image: url('https://raw.githubusercontent.com/antonkulakov-it/library/master/chess.png');
+  background-repeat: no-repeat;
+  background-position: -98px 9px;
+}
