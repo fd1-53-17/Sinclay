@@ -1,0 +1,112 @@
+.main {
+    width: 500px;
+    height: 400px;
+    margin: 30px 0 0;
+    background-color: goldenrod;
+    border-radius: 15px;
+    position: relative;
+}
+
+.block {
+    width: 150px;
+    height: 45px;
+    background-color: goldenrod;
+    border-radius: 15px;
+    position: absolute;
+    top: 10px;
+}
+
+.file1 {
+    width: 400px;
+    height: 300px;
+    background-color: lightgrey;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 48px;
+}
+
+.file1:hover {
+    transform: translateX(300px);
+}
+
+.red {
+    width: 5px;
+    height: 5px;
+    border: 5px solid red;
+    border-radius: 20px;
+    background-color: red;
+    margin: 5px;
+    float: left;
+}
+
+.orange {
+    width: 5px;
+    height: 5px;
+    border: 5px solid orange;
+    border-radius: 20px;
+    background-color: orange;
+    margin: 5px 5px 0 5px;
+    float: left;
+}
+
+.green {
+    width: 5px;
+    height: 5px;
+    border: 5px solid green;
+    border-radius: 20px;
+    background-color: green;
+    margin: 5px 0 0 5px;
+    float: left;
+}
+
+.options {
+    width: 20px;
+    height: 30px;
+    margin: 5px;
+    background: linear-gradient(to top, grey 0%, grey 20%, lightgrey 0%, lightgrey 40%, grey 0%, grey 60%, lightgrey 0%, lightgrey 80%, grey 0%, grey 100%);
+    float: right;
+    border-radius: 5px;
+}
+
+.file2 {
+    width: 430px;
+    height: 330px;
+    background-color: lightgrey;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+
+.file2:hover {
+    transform: translateX(300px);
+}
+
+.file3 {
+    width: 400px;
+    height: 300px;
+    background-color: lightgrey;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left: 48px;
+}
+
+.file3:hover {
+    transform: translateX(300px);
+}
+
+.end {
+    width: 500px;
+    height: 250px;
+    margin: 20px;
+    background-color: gold;
+    border-radius: 15px;
+    position: absolute;
+    top: 130px;
+    left: -20px;
+}

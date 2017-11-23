@@ -1,0 +1,49 @@
+.main {
+    width: 480px;
+    font-family: calibri;
+    background-color: white
+}
+
+p {
+    font-size: 13px;
+}
+
+.canvas {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+span {
+    color: green;
+}
+
+.red {
+    color: firebrick;
+}
+
+.context {
+    color: darkkhaki;
+    font-style: italic;
+}
+
+.document {
+    color: darkblue;
+}
+
+.get {
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding-bottom: 2px;
+}
+
+.canvas1 {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    font-family: monospace;
+}

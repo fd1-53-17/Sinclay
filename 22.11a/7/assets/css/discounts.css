@@ -1,0 +1,41 @@
+.main {
+    width: 500px;
+    height: 105px;
+    background-color: white;
+}
+
+.top {
+    font-family: tahoma;
+    font-weight: bolder;
+    padding: 20px;
+    float: left;
+}
+
+.right {
+    width: 90px;
+    font-family: tahoma;
+    font-weight: bolder;
+    border: 1px dashed red;
+    border-radius: 5px;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+.percentages {
+    font-size: 35px;
+    color: red;
+}
+
+.bot {
+    font-family: tahoma;
+    font-weight: bolder;
+    padding-right: 100px;
+    color: red;
+    float: right;
+}
+.img {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}

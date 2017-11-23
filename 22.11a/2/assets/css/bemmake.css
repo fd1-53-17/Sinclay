@@ -1,0 +1,37 @@
+.main {
+    width: 590px;
+}
+
+.bemmake {
+    border: 1px solid grey;
+    background-color: gainsboro;
+    padding: 10px;
+    font-family: monospace;
+}
+
+.bem-tools {
+    border: 1px solid grey;
+    background-color: gainsboro;
+    padding: 0 5px 2px 5px;
+    font-family: monospace;
+}
+
+.info {
+    border: 1px solid grey;
+    background-color: gainsboro;
+    padding: 5px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    font-family: monospace;
+}
+
+.number {
+    color: green;
+}
+
+.p {
+    border: 1px solid grey;
+    background-color: gainsboro;
+    padding: 0 5px 5px 5px;
+    font-family: monospace;
+}

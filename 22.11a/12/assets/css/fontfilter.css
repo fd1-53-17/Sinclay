@@ -1,0 +1,121 @@
+.main {
+    width: 400px;
+    height: 520px;
+    background-color: lightgrey;
+}
+
+.top {
+    width: 330px;
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+    background-color: grey;
+    color: white;
+    text-indent: 25px;
+    font-family: helvetica;
+    font-stretch: ultra-condensed;
+    font-size: 20px;
+    float: left;
+}
+
+.block1 {
+    margin: 20px 20px 10px 20px;
+    width: 180px;
+    font-family: calibri;
+    float: left;
+}
+
+.block1>div:not(:last-child) {
+    border-bottom: 1px solid silver;
+}
+
+.block1>div {
+    padding: 10px 0 10px 0;
+    color: indigo;
+}
+
+.block2 {
+    margin: 20px 20px 10px 20px;
+    width: 180px;
+    font-family: calibri;
+    float: left;
+}
+
+.block2>div:not(:last-child) {
+    border-bottom: 1px solid silver;
+}
+
+.block2>div {
+    padding: 10px 0 10px 0;
+    color: indigo;
+}
+
+.block2>div:hover {
+    background-color: darkorchid;
+    color: white;
+    padding-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-bottom: 0px solid darkorchid;
+}
+
+.block3 {
+    width: 148px;
+    font-family: calibri;
+    position: absolute;
+    left: 230px;
+    top: 84px;
+}
+
+.block3>div:not(:last-child) {
+    border-bottom: 1px solid silver;
+}
+
+.block3>div {
+    padding: 10px 0 10px 0;
+    color: indigo;
+}
+
+.vopros {
+    width: 20px;
+    background-color: darkorchid;
+    color: white;
+    border-radius: 5px;
+    float: right;
+    text-align: center;
+    font-family: tahoma;
+    cursor: help;
+}
+
+.block3>div:not(.vopros):hover {
+    background-color: darkorchid;
+    color: white;
+    padding-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-bottom: 0px solid darkorchid;
+}
+
+.block4 {
+    margin-top: 20px;
+    width: 148px;
+    font-family: calibri;
+    float: left;
+}
+
+.block4>div:not(:last-child) {
+    border-bottom: 1px solid silver;
+}
+
+.block4>div {
+    padding: 10px 0 10px 0;
+    color: indigo;
+}
+
+.block4>div:hover {
+    background-color: darkorchid;
+    color: white;
+    padding-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-bottom: 0px solid darkorchid;
+}
