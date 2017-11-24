@@ -1,0 +1,20 @@
+.main {
+    width: 166px;
+    font-family: arial black;
+    color: steelblue;
+    position: relative;
+    margin: 10px;
+    padding: 5px;
+    background-color: gainsboro;
+    font-size: 14px;
+}
+.main>div {
+    background-color: white;
+    padding: 10px;
+    margin: 2px;
+}
+.main>div:hover {
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+}

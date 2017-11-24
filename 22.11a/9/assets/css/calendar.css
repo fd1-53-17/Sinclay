@@ -1,0 +1,57 @@
+.main {
+    width: 200px;
+}
+
+.top {
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    padding: 5px;
+}
+
+.month {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.left {
+    border-top: 10px solid rgba(10%, 10%, 10%, 0);
+    border-bottom: 10px solid rgba(10%, 10%, 10%, 0);
+    border-right: 10px solid seagreen;
+    border-radius: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+.right {
+    border-top: 10px solid rgba(10%, 10%, 10%, 0);
+    border-bottom: 10px solid rgba(10%, 10%, 10%, 0);
+    border-left: 10px solid seagreen;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+}
+
+.content {
+    height: 130px;
+    width: 200px;
+    background-color: lightgrey;
+    padding-top: 10px;
+}
+
+.content>div {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+}
+
+.content>div:hover {
+    background-color: seagreen;
+    color: white;
+    cursor: pointer;
+}

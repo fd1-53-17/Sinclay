@@ -1,0 +1,46 @@
+.main {
+    background-color: white;
+    padding: 5px;
+    font-family: arial;
+    counter-reset: number -1;
+}
+
+div {
+    counter-increment: number;
+    float: left;
+}
+
+div:not(.main):not(.invisibleline):not(.line):before {
+    content: counter(number);
+}
+
+.main>div {
+    padding: 5px 10px 20px 10px;
+    text-decoration: underline;
+    color: darkturquoise;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+}
+
+.main>div:hover {
+    background-color: darkorange;
+    text-decoration: none;
+    color: white;
+}
+
+.invisibleline {
+    border: 5px solid white;
+    width: 294px;
+    position: absolute;
+    top: 43px;
+    z-index: 10;
+}
+
+.line {
+    width: 298px;
+    border-bottom: 5px solid lightgrey;
+    position: absolute;
+    top: 52px;
+    left: 13px;
+}

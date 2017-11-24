@@ -1,0 +1,39 @@
+.main {
+    width: 300px;
+    height: 130px;
+    background-color: white;
+}
+
+.cloud {
+    width: 250px;
+    height: 60px;
+    background-color: lightpink;
+    color: white;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 10px;
+    margin: 15px;
+    position: relative;
+    font-family: calibri;
+}
+
+.cloud:before {
+    content: "";
+    border-top: 25px solid lightpink;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    transform: skew(-40deg);
+}
+
+p {
+    position: absolute;
+    top: 100px;
+    left: 25px;
+    font-family: calibri;
+    color: navy;
+}
