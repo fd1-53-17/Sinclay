@@ -1,0 +1,94 @@
+body {
+    background-color: white
+}
+
+.title {
+    text-align: center;
+    background: lightblue;
+    font-family: Lucida console;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 15px 0 15px 0;
+}
+
+.aside {
+    width: 120px;
+    font-weight: bolder;
+    font-family: Trebuchet MS;
+    background: #F0E68C;
+    padding: 20px;
+    margin-right: 15px;
+    float: left;
+}
+
+li {
+    font-family: Trebuchet MS;
+    margin-left: -25px;
+}
+
+a:hover {
+    color: red;
+}
+
+.title1 {
+    font-weight: bolder;
+    text-align: center;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.image {
+    margin: 15px 15px 0 0;
+    float: left;
+}
+
+.clear {
+    clear: left;
+}
+
+.title2 {
+    text-align: center;
+    background: lightblue;
+    font-family: Lucida console;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 15px 0 15px 0;
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        margin: 0;
+    }
+    .main {
+        position: relative;
+    }
+    .title {
+        font-size: 18px;
+    }
+    .image {
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+    .aside {
+        background-color: white;
+        width: 200px;
+        font-size: 14px;
+        position: absolute;
+        bottom: -220px;
+        padding: 5px;
+    }
+    .content {
+        text-align: justify;
+        font-size: 14px;
+        margin: 0 1px 0 1px;
+    }
+    .title2 {
+        position: absolute;
+        font-size: 18px;
+        bottom: -275px;
+    }
+}
