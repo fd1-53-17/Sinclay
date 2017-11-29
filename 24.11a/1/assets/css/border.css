@@ -1,0 +1,30 @@
+.border6 {
+    width: 100px;
+    height: 100px;
+    outline: 10px solid violet;
+    border: 10px solid red;
+    background-color: white;
+    margin: 30px;
+    position: relative;
+}
+
+.border6:before {
+    width: 60px;
+    height: 60px;
+    content: "";
+    outline: 10px solid blue;
+    border: 10px solid green;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.border6:after {
+    width: 20px;
+    height: 20px;
+    content: "";
+    outline: 10px solid yellow;
+    border: 10px solid black;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
