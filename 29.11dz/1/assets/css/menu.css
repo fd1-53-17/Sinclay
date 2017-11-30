@@ -1,0 +1,91 @@
+#menu {
+    display: none;
+}
+
+#menu~ul {
+    display: none;
+}
+
+#menu:not(:checked)~label:nth-of-type(2) {
+    display: none;
+}
+
+#menu:checked+label {
+    display: none;
+}
+
+#menu:checked~ul {
+    display: block;
+}
+
+label {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: blue;
+}
+
+li:hover {
+    background-color: lightgreen;
+}
+
+#ulmenu {
+    width: 95px;
+    padding: 0;
+    border: 1px solid blue;
+}
+
+.menu-list1,
+.menu-list2,
+.menu-list3,
+.menu-list4 {
+    opacity: 0;
+    padding: 0;
+    width: 115px;
+    position: absolute;
+    left: 104px;
+    top: 42px;
+    border: 1px solid blue;
+}
+
+.menu-list2 {
+    left: 104px;
+    top: 61px;
+}
+
+.menu-list3 {
+    left: 104px;
+    top: 80px;
+}
+
+.menu-list4 {
+    left: 104px;
+    top: 98px;
+}
+
+#ulmenu li:hover>ul {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+#li:hover {
+    background: slateblue;
+}
+
+#a {
+    text-decoration: none;
+    color: black;
+}
+
+#point:hover:after {
+    content: ">";
+    margin: 27px;
+}
