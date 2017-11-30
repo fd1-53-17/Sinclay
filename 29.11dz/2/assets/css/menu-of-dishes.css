@@ -1,0 +1,130 @@
+#menu,
+#menu1,
+#menu2 {
+    display: none;
+}
+
+#menu:checked~ul:nth-of-type(1),
+#menu1:checked~ul:nth-of-type(2),
+#menu2:checked~ul:nth-of-type(3) {
+    display: block;
+    position: absolute;
+}
+
+#menu:checked~ul:nth-of-type(1)>li,
+#menu1:checked~ul:nth-of-type(2)>li,
+#menu2:checked~ul:nth-of-type(3)>li {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+label {
+    width: 100px;
+    background-color: lightblue;
+    text-align: center;
+    display: inline-block;
+    padding: 25px;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+            box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+img {
+    width: 150px;
+    position: absolute;
+    top: 50px;
+}
+
+li {
+    padding-left: 15px;
+}
+
+.ulmenu>li:before,
+.ulmenu1>li:before,
+.ulmenu2>li:before {
+    content: "10 руб.";
+    color: darkred;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin-left: -60px;
+    padding-top: 5px;
+    border: 5px double pink;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    opacity: 0;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.ulmenu>li:hover:before,
+.ulmenu1>li:hover:before,
+.ulmenu2>li:hover:before {
+    opacity: 1;
+}
+
+#menu:checked~label:nth-of-type(1),
+#menu1:checked~label:nth-of-type(2),
+#menu2:checked~label:nth-of-type(3) {
+    background-color: orangered;
+    color: white;
+}
+
+#menu~label:nth-of-type(1),
+#menu1~label:nth-of-type(2),
+#menu2~label:nth-of-type(3) {
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+@media screen and (max-width: 320px) {
+    label {
+        width: 60%;
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    #menu:checked~ul:nth-of-type(1)>li,
+    #menu1:checked~ul:nth-of-type(2)>li,
+    #menu2:checked~ul:nth-of-type(3)>li {
+        font-size: 10px;
+        margin-top: 200px;
+        margin-left: 35px;
+    }
+    .ulmenu>li:before,
+    .ulmenu1>li:before,
+    .ulmenu2>li:before {
+        position: absolute;
+        top: 175px;
+        left: 70px;
+        font-size: 20px;
+    }
+    img {
+        
+    }
+}
