@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background: -webkit-radial-gradient(right, 100vh, gold 80%, white 80.5%, green 81%);
+    background: -o-radial-gradient(right, 100vh, gold 80%, white 80.5%, green 81%);
+    background: radial-gradient(100vh at right, gold 80%, white 80.5%, green 81%);
+}
+
+nav {
+    width: 260px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid lightgreen;
+    border-radius: 15px;
+    background: white;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: green;
+    vertical-align: middle;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    background: gold;
+    -webkit-transform: scale(1.5, 1.5);
+        -ms-transform: scale(1.5, 1.5);
+            transform: scale(1.5, 1.5);
+}
+
+.arrow {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid rgba(0%, 0%, 0%, 0);
+    border-bottom: 10px solid rgba(0%, 0%, 0%, 0);
+}
+
+.left {
+    top: 37px;
+    left: 29px;
+    border-right: 10px solid white;
+}
+
+.right {
+    top: -37px;
+    left: 231px;
+    border-left: 10px solid white;
+}
+
+.title {
+    text-transform: uppercase;
+    background: white;
+    width: 600px;
+    font-size: 1.1em;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1px;
+    border-radius: 100px;
+    position: relative;
+}
+
+.title>h1 {
+    text-shadow: 0px 9px 20px black;
+}
+
+.gold-line {
+    width: 30vw;
+    height: 50px;
+    margin-top: 35px;
+    background: gold;
+    position: relative;
+}
+
+.gold-line:before {
+    content: "";
+    width: 70px;
+    height: 70px;
+    background: green;
+    -webkit-box-shadow: 7px 0px 63px 3px rgba(0, 0, 0, 0.75);
+            box-shadow: 7px 0px 63px 3px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    right: -20px;
+    border-radius: 40px;
+    margin-top: -10px;
+}
+
+.content:after {
+    position: absolute;
+    text-transform: uppercase;
+    color: gold;
+    font-weight: bolder;
+}
+
+.content1:after {
+    content: "Нам доверяют";
+    right: -173px;
+}
+
+.content2:after {
+    content: "Безболезненно и безопасно";
+    right: -306px;
+}
+
+.content3:after {
+    content: "Индивидуальный подход";
+    right: -274px;
+}
+
+.content4:after {
+    content: "Врачи";
+    right: -92px;
+}
+
+.content5:after {
+    content: "Оборудование";
+    right: -174px;
+}
+
+.gold-line>p {
+    width: 450px;
+    position: absolute;
+    right: -489px;
+    top: 10px;
+    font-size: 0.8em;
+    color: white;
+}
+
+.gold-line:hover,
+.gold-line:hover:before {
+    background: white;
+    cursor: pointer;
+}
+
+.content1:hover:after,
+.content2:hover:after,
+.content3:hover:after,
+.content4:hover:after,
+.content5:hover:after {
+    color: white;
+}
+
+.title1 {
+    position: relative;
+    text-transform: uppercase;
+    background: white;
+    width: 450px;
+    font-size: 0.8em;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 5px 25px;
+    border-radius: 100px;
+}
+
+.title1>h1 {
+    text-shadow: 0px 9px 33px black;
+}
+
+.title1:after {
+    content: "...и получи консультацию БЕСПЛАТНО!";
+    color: white;
+    position: absolute;
+    bottom: -30px;
+    left: 25px;
+    text-transform: none;
+    font-size: 1.7em;
+}
+
+@media screen and (max-width: 320px) {
+    .main {
+        background: -webkit-radial-gradient(bottom, 40vh, gold 98%, white 99%, green 100%);
+        background: -o-radial-gradient(bottom, 40vh, gold 98%, white 99%, green 100%);
+        background: radial-gradient(40vh at bottom, gold 98%, white 99%, green 100%);
+        position: relative;
+    }
+    .main:after {
+        content: "";
+        width: 100vw;
+        height: 10vh;
+        background: green;
+        position: absolute;
+        bottom: 0;
+    }
+    .title {
+        width: 90vw;
+        margin-left: 10px;
+        font-size: 0.6em;
+    }
+    .gold-line {
+        height: 25px;
+        background: green;
+        margin-left: -58px;
+        margin-bottom: 55px;
+    }
+    .gold-line:before {
+        width: 50px;
+        height: 50px;
+    }
+    .content:after {
+        font-size: 0.8em;
+        left: 130px;
+        margin-top: -5px;
+    }
+    .gold-line>p {
+        margin-top: 5px;
+        width: 70vw;
+        left: 41vw;
+        font-size: 0.7em;
+    }
+    .title1 {
+        width: 80vw;
+        margin-left: 6px;
+        font-size: 0.5em;
+        bottom: -14vh;
+    }
+    .title1:after {
+        width: 100vw;
+        left: -6px;
+        bottom: -25px;
+        font-size: 1.9em;
+    }
+    nav ul li {
+        display: none;
+    }
+    nav {
+        position: absolute;
+        left: 5px;
+        top: 85vh;
+    }
+    .arrow {
+        width: 0px;
+        height: 0px;
+        border-left: 20px solid rgba(0%, 0%, 0%, 0);
+        border-right: 20px solid rgba(0%, 0%, 0%, 0);
+        left: 45vw;
+        z-index: 1;
+    }
+    .left {
+        top: 5vh;
+        border-bottom: 20px solid white;
+    }
+    .right {
+        top: -4vh;
+        border-top: 20px solid white;
+    }
+}
