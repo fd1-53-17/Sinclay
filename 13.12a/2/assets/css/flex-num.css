@@ -1,0 +1,27 @@
+.row {
+    display: flex;
+    position: relative;
+}
+
+.row:nth-of-type(2)>div:nth-of-type(2) {
+    order: 1;
+}
+
+.row:nth-of-type(3)>div:nth-of-type(1),
+.row:nth-of-type(3)>div:nth-of-type(3) {
+    order: 1;
+}
+
+.row:nth-of-type(4)>div:nth-of-type(1) {
+    order: 1;
+}
+
+.row:nth-of-type(5)>div:nth-of-type(1),
+.row:nth-of-type(5)>div:nth-of-type(2) {
+    order: 1;
+}
+
+.row:nth-of-type(6) {
+    flex-direction: row-reverse;
+    position: absolute;
+}
