@@ -1,0 +1,181 @@
+body {
+    background: grey;
+}
+
+.chessTable {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.chessTable>div {
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+div:nth-of-type(2n+12):nth-of-type(-n+16),
+div:nth-of-type(2n+18):nth-of-type(-n+18),
+div:nth-of-type(2n+23):nth-of-type(-n+29),
+div:nth-of-type(2n+32):nth-of-type(-n+38),
+div:nth-of-type(2n+43):nth-of-type(-n+49),
+div:nth-of-type(2n+52):nth-of-type(-n+58),
+div:nth-of-type(2n+60):nth-of-type(-n+59),
+div:nth-of-type(2n+63):nth-of-type(-n+69),
+div:nth-of-type(2n+72):nth-of-type(-n+78),
+div:nth-of-type(2n+83):nth-of-type(-n+89) {
+    background-color: grey;
+}
+
+.chessTable>div:nth-of-type(1n+2):nth-of-type(-n+9),
+.chessTable>div:nth-of-type(2n+3):nth-of-type(-n+22),
+.chessTable>div:nth-of-type(2n+20):nth-of-type(-n+30),
+.chessTable>div:nth-of-type(2n+31):nth-of-type(-n+41),
+.chessTable>div:nth-of-type(2n+40):nth-of-type(-n+51),
+.chessTable>div:nth-of-type(2n+51):nth-of-type(-n+61),
+.chessTable>div:nth-of-type(2n+60):nth-of-type(-n+71),
+.chessTable>div:nth-of-type(2n+71):nth-of-type(-n+82),
+.chessTable>div:nth-of-type(2n+80):nth-of-type(-n+92),
+.chessTable>div:nth-of-type(1n+92):nth-of-type(-n+99) {
+    background: white;
+    border: 1px solid grey;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+div:nth-of-type(2):before,
+div:nth-of-type(3):before,
+div:nth-of-type(4):before,
+div:nth-of-type(5):before,
+div:nth-of-type(6):before,
+div:nth-of-type(7):before,
+div:nth-of-type(8):before,
+div:nth-of-type(9):before {
+    position: absolute;
+    top: 40px;
+    left: 23px;
+}
+
+div:nth-of-type(92):before,
+div:nth-of-type(93):before,
+div:nth-of-type(94):before,
+div:nth-of-type(95):before,
+div:nth-of-type(96):before,
+div:nth-of-type(97):before,
+div:nth-of-type(98):before,
+div:nth-of-type(99):before {
+    position: absolute;
+    left: 23px;
+}
+
+div:nth-of-type(2):before,
+div:nth-of-type(92):before {
+    content: "A";
+}
+
+div:nth-of-type(3):before,
+div:nth-of-type(93):before {
+    content: "B";
+}
+
+div:nth-of-type(4):before,
+div:nth-of-type(94):before {
+    content: "C";
+}
+
+div:nth-of-type(5):before,
+div:nth-of-type(95):before {
+    content: "D";
+}
+
+div:nth-of-type(6):before,
+div:nth-of-type(96):before {
+    content: "E";
+}
+
+div:nth-of-type(7):before,
+div:nth-of-type(97):before {
+    content: "F";
+}
+
+div:nth-of-type(8):before,
+div:nth-of-type(98):before {
+    content: "G";
+}
+
+div:nth-of-type(9):before,
+div:nth-of-type(99):before {
+    content: "H";
+}
+
+div:nth-of-type(11):before,
+div:nth-of-type(21):before,
+div:nth-of-type(31):before,
+div:nth-of-type(41):before,
+div:nth-of-type(51):before,
+div:nth-of-type(61):before,
+div:nth-of-type(71):before,
+div:nth-of-type(81):before {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+}
+
+div:nth-of-type(20):before,
+div:nth-of-type(30):before,
+div:nth-of-type(40):before,
+div:nth-of-type(50):before,
+div:nth-of-type(60):before,
+div:nth-of-type(70):before,
+div:nth-of-type(80):before,
+div:nth-of-type(90):before {
+    position: absolute;
+    top: 20px;
+    left: 4px;
+}
+
+div:nth-of-type(11):before,
+div:nth-of-type(20):before {
+    content: "1";
+}
+
+div:nth-of-type(21):before,
+div:nth-of-type(30):before {
+    content: "2";
+}
+
+div:nth-of-type(31):before,
+div:nth-of-type(40):before {
+    content: "3";
+}
+
+div:nth-of-type(41):before,
+div:nth-of-type(50):before {
+    content: "4";
+}
+
+div:nth-of-type(51):before,
+div:nth-of-type(60):before {
+    content: "5";
+}
+
+div:nth-of-type(61):before,
+div:nth-of-type(70):before {
+    content: "6";
+}
+
+div:nth-of-type(71):before,
+div:nth-of-type(80):before {
+    content: "7";
+}
+
+div:nth-of-type(81):before,
+div:nth-of-type(90):before {
+    content: "8";
+}
