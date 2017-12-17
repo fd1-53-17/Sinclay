@@ -1,0 +1,31 @@
+.main {
+    width: 320px;
+    height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow-y: scroll;
+}
+
+a {
+    margin-bottom: 15px
+}
+
+a:hover {
+    color: orangered;
+}
+
+h1:first-child {
+    text-decoration: line-through;
+    font-size: 22px;
+    margin: 0;
+}
+
+h1:nth-of-type(2) {
+    font-size: 22px;
+    margin: 0;
+}
