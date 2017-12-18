@@ -1,0 +1,15 @@
+@mainColor: green;
+body {
+    background-color: @mainColor + red;
+    color: @mainColor + orange;
+}
+
+.roundBorder (@br, @bw, @bs, @bc) {
+    border: @bw @bs @bc;
+    border-radius: @br;
+}
+
+input {
+    .roundBorder (12px, 10px, solid, orangered);
+    color: @mainColor + black;
+}

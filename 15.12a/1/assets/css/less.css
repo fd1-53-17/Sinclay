@@ -1,0 +1,9 @@
+body {
+  background-color: #ff8000;
+  color: #ffff00;
+}
+input {
+  border: 10px solid orangered;
+  border-radius: 12px;
+  color: #008000;
+}
