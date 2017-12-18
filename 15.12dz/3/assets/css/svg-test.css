@@ -1,0 +1,10 @@
+rect, path {
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+rect:hover, path:hover {
+    fill: orange;
+    stroke: yellow;
+    stroke-width: 15;
+}
