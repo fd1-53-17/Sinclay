@@ -1,0 +1,150 @@
+.wrapper {
+    margin: 0 auto;
+    width: 870px;
+}
+
+header {
+    height: 93px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+header>div,
+aside>div,
+footer>div {
+    background: dimgray;
+}
+
+header>div:first-child {
+    width: 120px;
+}
+
+header>div:nth-of-type(2) {
+    width: 270px;
+}
+
+header>div:last-child {
+    width: 430px;
+}
+
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+aside {
+    width: 158px;
+    height: 700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+aside>div:first-child {
+    height: 287px;
+}
+
+aside>div:last-child {
+    height: 114px;
+}
+
+article * {
+    background: lightgrey;
+}
+
+article {
+    width: 690px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+}
+
+article>div:first-child {
+    width: 100%;
+    height: 190px;
+}
+
+article>ul {
+    height: 310px;
+    margin-left: -40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: none;
+}
+
+article>ul>li {
+    height: 130px;
+    width: 124px;
+    list-style-type: none;
+}
+
+article>ul>li:nth-of-type(7) {
+    position: relative;
+    left: -424.5px;
+}
+
+article>div:nth-of-type(2),
+article>div:last-child {
+    height: 170px;
+    width: 335px;
+}
+
+footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+footer>div:first-child,
+footer>div:nth-of-type(2) {
+    height: 154px;
+    width: 255px;
+}
+
+footer>div:last-child,
+footer>div:nth-of-type(3) {
+    height: 67px;
+    width: 315px;
+}
+
+footer>div:last-child {
+    position: relative;
+    right: -555px;
+    top: -68px;
+}
